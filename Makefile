@@ -21,7 +21,7 @@ execution: configurate
 configurate:
 	$(CC) $(COMPILE_CONFIGS)
 
-run: configurate
+run:
 	$(CC) $(PARALLEL_EXECUTE)
 	$(CC) $(PARSE_LOGS)
 	$(CC) $(GET_GRAPHICS)
