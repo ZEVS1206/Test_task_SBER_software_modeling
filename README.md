@@ -67,9 +67,9 @@ export PATH=/opt/cmake-3.28.3/bin:$PATH
 
 Inside `ChampSim/`:
 ```bash
-wget https://dpc3.compas.cs.stonybrook.edu/champsim-traces/speccpu/625.x264_s-12B.champsimtrace.xz
-wget https://dpc3.compas.cs.stonybrook.edu/champsim-traces/speccpu/623.hmmer_r-0000.champsimtrace.xz
-wget https://dpc3.compas.cs.stonybrook.edu/champsim-traces/speccpu/603.bwaves_r-0000.champsimtrace.xz
+wget https://dpc3.compas.cs.stonybrook.edu/champsim-traces/speccpu/625.x264_s-39B.champsimtrace.xz
+wget https://dpc3.compas.cs.stonybrook.edu/champsim-traces/speccpu/456.hmmer-327B.champsimtrace.xz
+wget https://dpc3.compas.cs.stonybrook.edu/champsim-traces/speccpu/437.leslie3d-273B.champsimtrace.xz
 ```
 
 Create a `traces/` directory and move the traces there.
